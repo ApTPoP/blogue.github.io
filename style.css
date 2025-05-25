@@ -15,7 +15,7 @@ nav {
 
 nav .logo a {
   padding-left: 1em;
-  padding-right: 12em;
+  padding-right: 3em;
   padding-top: 0.25em;
   float: left;
   font-size: 3em;
@@ -30,6 +30,7 @@ nav .logo a {
 nav ul{
    padding-top: 0.75em;
    float: right;
+   padding-right: 1em;
 }
 nav li{
    display: inline-block;
@@ -43,7 +44,7 @@ nav li a{
    text-decoration: none;
 }
 nav li a:hover{
-   color: #BED4F7;
+   color: #BBBBBB;
    transition: all 0.4s ease 0s;
 }
 
@@ -67,7 +68,8 @@ nav ul li a, .dropbtn {
 }
 
 .dropdown-content a {
-    color: white;
+    font-size: 0.60em;
+	color: white;
     padding: 0px 30px;
     text-decoration: none;
     display: block;
@@ -80,12 +82,19 @@ nav ul li a, .dropbtn {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  padding: 10px; 
-  margin: 45px;  
-  display: inline-block;
+  justify-content: center; 
+  align-items: center;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-  justify-content: center;
   border-radius: 18px;
+  padding: 10px; 
+  margin: 45px;
 }
+	
+.boxed-text { 
+  border: 1px solid black; 
+  padding: 10px; 
+  margin: 20px; 
+  border-radius: 15px; 
+  width: 825px; 
+  display: inline-block;
+	}
